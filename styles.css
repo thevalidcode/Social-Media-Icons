@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.social-media {
+  background-color: purple;
+  border-radius: 70px;
+  padding: 10px 15px;
+}
+
+.social-media ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.social-media ul li {
+  margin-left: -17px;
+}
+
+.social-media ul li a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  background-color: rgb(179, 8, 179);
+  border-radius: 50%;
+  margin: 10px 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.social-media ul li:nth-child(1) a:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  transition: 0.5s;
+}
+
+.social-media ul li:nth-child(2) a:hover {
+  background: #3b5998;
+  transition: 0.5s;
+}
+
+.social-media ul li:nth-child(3) a:hover {
+  background: #000;
+  transition: 0.5s;
+}
+
+.social-media ul li:nth-child(3) a:hover i {
+  text-shadow: 0.6px 0.6px #ff3353fc, -0.6px -0.6px cyan;
+  transition: 0.5s;
+}
+
+.social-media ul li:nth-child(4) a:hover {
+  background: #ff3353fc;
+  transition: 0.5s;
+}
+
+.social-media ul li:nth-child(5) a:hover {
+  background: #000;
+  transition: 0.5s;
+}
+
+.social-media ul a i {
+  transition: 0.5s;
+}
+
+.social-media ul a:hover i {
+  transform: scale(1.5);
+  transition: 0.5s;
+}
